@@ -39,5 +39,5 @@ void winClipboardSet(const wchar_t *wstr)
 }
 void wstr_free(wchar_t *wstr)
 {
-    if (wstr) free(pwcs);
+    if (wstr) free(wstr);
 }
