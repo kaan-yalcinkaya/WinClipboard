@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(winClipboard)
+set(CMAKE_C_STANDART 11)
+add_library(winClipboard SHARED winClipboard.c)
+set_target_properties(winClipboard PROPERTIES PUBLIC_HEADER winClipboard.h)
