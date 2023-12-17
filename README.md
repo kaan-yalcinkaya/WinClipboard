@@ -10,6 +10,6 @@ cmake --build build
 ```
 # Functions
 ```
-winClipboardGet(): returns copy of unicode text form clipboard if function succesed otherwise returns NULL. <br>
-winClipboardSet(): transfers given wide character string to clipboard.
+winClipboardGet(): returns copy of the unicode text form the clipboard if function succesed otherwise returns NULL.
+winClipboardSet(): transfers given wide character string to the clipboard.
 ```
